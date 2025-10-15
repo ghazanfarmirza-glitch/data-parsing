@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import fetch from "node-fetch";
 
-// const API_KEY = "sk_05e64745ef65e4203fafe51747ebfcbd9b20658ce958a6dc";
+
 const BASE = "https://api.elevenlabs.io/v1/convai";
 
 async function listPage(cursor) {
