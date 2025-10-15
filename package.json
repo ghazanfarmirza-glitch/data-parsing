@@ -1,0 +1,37 @@
+{
+  "name": "ai-conversation-optimization",
+  "version": "1.0.0",
+  "description": "Data-driven analysis and optimization of AI voice agent conversations",
+  "main": "src/analyze_failures.js",
+  "type": "module",
+  "scripts": {
+    "analyze": "node src/analyze_failures.js",
+    "extract": "node src/extract_conversation_contexts.js",
+    "start": "npm run analyze"
+  },
+  "keywords": [
+    "ai",
+    "conversation-analysis",
+    "data-science",
+    "nlp",
+    "optimization",
+    "voice-agents",
+    "customer-service"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ai-conversation-optimization.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ai-conversation-optimization/issues"
+  },
+  "homepage": "https://github.com/yourusername/ai-conversation-optimization#readme"
+}
